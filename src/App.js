@@ -1,6 +1,7 @@
 import "./App.css";
 import AddTask from "./component/AddTask/AddTask";
 import ListTasks from "./component/ListTasks/ListTasks";
+import Counter from "./component/Counter/Counter";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h2>To Do Application</h2>
       <AddTask />
       <ListTasks />
+      <Counter />
     </div>
   );
 }
